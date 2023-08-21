@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(14, 14, 63);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: rgb(35, 35, 130);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(108, 108, 188);
+  font-size: 1.02rem;
+}
+.left {
+    margin-left: 21px;
+    font-size: 1.8rem;
+}
+.right{
+    margin-left: 261px;
+}
+.purple {
+  color: rgb(198, 150, 247);
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+.firstSection div {
+  width: 30%;
+}
+.leftSection {
+  width: 34px;
+  font-size: 2.5rem;
+  margin: 30px 0;
+}
+.inlinetext {
+  display: inline;
+  white-space: nowrap;
+  line-height: 1.7em;
+}
+.animation {
+  display: block;
+  white-space: nowrap;
+  color: rgb(178, 178, 208);
+  font-size: 4rem;
+}
+.job {
+  display: inline;
+  white-space: nowrap;
+  color: rgb(136, 136, 189);
+}
+.rightSection img {
+  width: 90%;
+  margin: -55px -35px;
+}
+.secondsection {
+  margin: auto;
+  max-width: 80vw;
+  height: 80vh;
+}
+main hr {
+  border: 0;
+  background-color: rgb(205, 177, 186);
+  height: 20.200000000000003px;
+  margin: 40px 84px;
+  border-radius: 50%;
+}
+.secondsection h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  color: #e1e1ff;
+}
+.text-gray {
+  color: grey;
+}
+.secondsection .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondsection .vertical{
+  height: 75px;
+  width: 1px;
+  background-color: antiquewhite;
+  margin: 0 116px;
+}
+.image-top{
+  width: 23px;
+  position: relative;
+  top: -47px;
+  left: -16px;
+}
+.image-photo{
+  width: 47px;
+  position: relative;
+  top: -47px;
+  left: -16px;
+}
+.image-photo:hover{
+  width: 57px; /* Increase the width */
+  position: relative;
+  cursor: pointer;
+  top: -47px;
+  left: -16px;
+}
+.image-Animator{
+  width: 30px; /* Increase the width */
+  position: relative;
+  top: -47px;
+  left: -16px;
+}
+.image-Animator:hover{
+  width: 40px; /* Increase the width */
+  position: relative;
+  cursor: pointer;
+  top: -47px;
+  left: -16px;
+}
+.image-video{
+  width: 34px; /* Increase the width */
+  position: relative;
+  top: -47px;
+  left: -16px;
+}
+.image-video:hover{
+  width: 40px; /* Increase the width */
+  position: relative;
+  cursor: pointer;
+  top: -47px;
+  left: -16px;
+}
+.image-web{
+  width: 20px;
+  position: relative;
+  top: -47px;
+  left: -16px;
+}
+.image-web:hover{
+  width: 30px; /* Increase the width */
+  position: relative;
+  cursor: pointer;
+  top: -47px;
+  left: -16px;
+}
+.image-code{
+  width: 20px;
+  position: relative;
+  top: -47px;
+  left: -16px;
+}
+.image-code:hover{
+  width: 30px; /* Increase the width */
+  position: relative;
+  cursor: pointer;
+  top: -47px;
+  left: -16px;
+}
+.vertical-title{
+      position: relative;
+      top: 50px;
+      width: 132px;
+}
+.vertical-title1{
+  position: relative;
+  top: 50px;
+  width: 132px;
+}
+.vertical-desc{
+  position: relative;
+  top: 65px;
+  color: grey;
+  width: 150px;
+  font-size: 9px;
+}
+footer{
+  background-color: rgb(149, 196, 237);
+}
+.footer{
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+  color: black;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div{
+  width: 223px;
+}
+.footer-right{
+  text-align: center;
+  color: #1b1b1b;
+  padding: 12px 0;
+}
+footer .footer-second ul a {
+  text-decoration: none;
+  color: black;
+}
+footer .footer-second ul a:hover {
+  text-decoration: none;
+  color: rgb(207, 73, 73);
+  font-size: 1.02rem;
+}
+
