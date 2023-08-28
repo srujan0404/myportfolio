@@ -99,9 +99,11 @@ main hr {
 }
 .secondsection .box {
   background-color: white;
-  width: 80vw;
+  width: 74vw;
   height: 2px;
-  margin: 56px 0;
+  align-items: center;
+  justify-content: center;
+  margin: 145px 0;
   display: flex;
 }
 .secondsection .vertical{
